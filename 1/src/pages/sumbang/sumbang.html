@@ -7,12 +7,73 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>sumbang</ion-title>
+    <ion-title>
+    	      <img class="title-image" alt="logo" height="40"   src="assets/img/logo.png" >
+    </ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
+
+<div>
+	<ion-card>
+		<ion-grid>
+			<ion-row>
+				<ion-col>
+						<div>		
+					      <ion-thumbnail item-left>
+					        <img src="../assets/img/logo.png">
+					      </ion-thumbnail>
+					    </div>
+				</ion-col>
+				<ion-col>
+				      		<ion-item>
+				    			<ion-input type="text" placeholder="Nama Barang"></ion-input>
+				      		</ion-item>
+				</ion-col>
+		    </ion-row>
+		    <ion-row>
+		    		<ion-col>
+				      		  <ion-item>
+								      <ion-label>Jenis Barang</ion-label>
+								      <ion-select [(ngModel)]="jenis">
+								        <ion-option value="elektronik">Elektronik</ion-option>
+								        <ion-option value="alat">Alat Tulis</ion-option>
+								        <ion-option value="sandang">Sandang</ion-option>
+								      </ion-select>
+						    </ion-item>
+		    		</ion-col>
+		    </ion-row>
+		     <ion-row>
+		    		<ion-col>
+				      		  <ion-item>
+				    					<ion-input type="text" value="" placeholder="Berat Barang (Kg)"></ion-input>
+						    </ion-item>
+		    		</ion-col>
+		    </ion-row>
+		    <ion-row>
+		    		<ion-col>
+				      		  <ion-item>
+								        <ion-input type="text" value="" placeholder="Vol"></ion-input>
+						    </ion-item>
+		    		</ion-col>
+		    		X
+		    		<ion-col>
+				      		  <ion-item>
+								         <ion-input type="text" value="" placeholder="Vol"></ion-input>
+						    </ion-item>
+		    		</ion-col>
+		    		X
+		    		<ion-col>
+				      		  <ion-item>X
+								         <ion-input type="text" value="" placeholder="Vol"></ion-input>
+						    </ion-item>
+		    		</ion-col>    		
+		    </ion-row>
+		</ion-grid>
+    </ion-card>
+</div>
 
 </ion-content>

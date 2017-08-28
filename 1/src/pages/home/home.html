@@ -1,11 +1,13 @@
 
 <ion-header>
   <ion-navbar>
-    <ion-title>Slides</ion-title>
+    <ion-title>      
+      <img class="title-image" alt="logo" height="70"   src="assets/img/logo-fix.png" >
+    </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content class="tutorial-page">
+<ion-content class="cards-bg social-cards">
 
   <ion-slides pager>
     <ion-slide>
@@ -28,8 +30,108 @@
     </ion-slide>
   </ion-slides>
 
-  <div padding>
-    	<button ion-button color="primary" block (click)='nyumbang()'>Nyumbang</button>
-  	</div>
+  <ion-card>
+
+  <ion-item>
+    <ion-avatar item-left>
+      <img src="assets/img/logo-fix.png">
+    </ion-avatar>
+    <h2>Yayasan Sehat Semu</h2>
+    <p>Sejak November 5, 1955</p>
+  </ion-item>
+
+  <ion-card-content>
+    <p>Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.</p>
+  </ion-card-content>
+
+  <ion-row>
+    <ion-col>
+      <button ion-button color="primary" clear small icon-start>
+        <ion-icon name='ios-information-circle'></ion-icon>
+        Details
+      </button>
+    </ion-col>
+      <ion-col align-self-center text-center>
+      <ion-note>
+          +/- 2Km
+      </ion-note>
+    </ion-col>
+  </ion-row>
+
+</ion-card>
+
+
+ <ion-card>
+
+  <ion-item>
+    <ion-avatar item-left>
+      <img src="assets/img/logo-fix.png">
+    </ion-avatar>
+    <h2>Yayasan Sehat Semu</h2>
+    <p>Sejak November 5, 1955</p>
+  </ion-item>
+
+  <ion-card-content>
+    <p>Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.</p>
+  </ion-card-content>
+
+  <ion-row>
+    <ion-col>
+      <button ion-button color="primary" clear small icon-start>
+        <ion-icon name='ios-information-circle'></ion-icon>
+          Details
+      </button>
+    </ion-col>
+    <ion-col align-self-center text-center>
+      <ion-note>
+        +/- 20Km
+      </ion-note>
+    </ion-col>
+  </ion-row>
+
+</ion-card>
+
+ <ion-card>
+
+  <ion-item>
+    <ion-avatar item-left>
+      <img src="assets/img/logo-fix.png">
+    </ion-avatar>
+    <h2>Yayasan Sehat Semu</h2>
+    <p>Sejak November 5, 1955</p>
+  </ion-item>
+
+  <ion-card-content>
+    <p>Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.</p>
+  </ion-card-content>
+
+  <ion-row>
+    <ion-col>
+      <button ion-button color="primary" clear small icon-start>
+        <ion-icon name='ios-information-circle'></ion-icon>
+        Details
+      </button>
+    </ion-col>
+    <ion-col align-self-center text-center>
+      <ion-note>
+        +/- 25 Km
+      </ion-note>
+    </ion-col>
+  </ion-row>
+
+</ion-card>
+
+
+
+  <ion-fab right bottom>
+    <button ion-fab color="dark"><ion-icon name="add"></ion-icon></button>
+    <ion-fab-list side="top">
+      <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab>
+
 
 </ion-content>

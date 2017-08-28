@@ -15,6 +15,8 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { SingleItem } from '../pages/single-item/single-item';
 import { LoginPage } from '../pages/login/login';
 import { SumbangPage } from '../pages/sumbang/sumbang';
+import { MainPage } from '../pages/main/main';
+
 
 
 // Service imports
@@ -34,7 +36,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SingleItem,
     TabsPage,
     LoginPage,
-    SumbangPage
+    SumbangPage,
+    MainPage
   ],
   imports: [
     BrowserModule,
@@ -51,7 +54,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SingleItem,
     TabsPage,
     LoginPage,
-    SumbangPage
+    SumbangPage,
+    MainPage
   ],
   providers: [
     StatusBar, //save data

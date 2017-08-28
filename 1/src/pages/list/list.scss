@@ -1,3 +1,15 @@
 page-list {
+		.item-ios p {
+	  overflow: inherit;
+	  margin: 0 0 2px;
+	  font-size: 1.4rem;
+	  line-height: normal;
+	  text-overflow: inherit;
+	  color: #6E0021;
+	}
 
+	 .toolbar-background {
+  background: #1B607C;
+  border-color: transparent;
+}
 }

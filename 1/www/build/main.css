@@ -24501,6 +24501,11 @@ a {
   margin-bottom: 12px;
 }
 
+page-detail .toolbar-background {
+  background: #1B607C;
+  border-color: transparent;
+}
+
 page-home .toolbar-background {
   background: #fff;
   border-color: transparent;

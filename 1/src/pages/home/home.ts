@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { SumbangPage } from '../sumbang/sumbang';
+import { DetailPage } from '../detail/detail';
 
 /**
  * Generated class for the HomePage page.
@@ -22,10 +22,10 @@ export class HomePage {
     console.log('ionViewDidLoad HomePage');
   }
 
-  nyumbang(){
+  detail(){
 
-	this.navCtrl.setRoot(SumbangPage);
-		//this.navCtrl.push(TabsPage);
+	//this.navCtrl.setRoot(DetailPage);
+		this.navCtrl.push(DetailPage);
 
 	}
 

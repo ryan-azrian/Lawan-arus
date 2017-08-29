@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angular';
 
 /**
  * Generated class for the SumbangPage page.
@@ -14,11 +14,21 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class SumbangPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public alerCtrl: AlertController) {
   }
+
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SumbangPage');
+  }
+
+    doAlert() {
+    let alert = this.alerCtrl.create({
+      title: 'Terima Kasih',
+      message: 'Terima kasih sudah menyumbangkan barang anda. Tunggu tunggu konfirmasi dari yayasan',
+      buttons: ['Ok']
+    });
+    alert.present()
   }
 
 }

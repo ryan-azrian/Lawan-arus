@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, App } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, App, AlertController } from 'ionic-angular';
 import { LoginPage } from '../login/login';
 
 
@@ -16,7 +16,7 @@ import { LoginPage } from '../login/login';
 })
 export class ProfilPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public app:App) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public app:App, public alertCtrl: AlertController) {
   }
 
   ionViewDidLoad() {
@@ -29,5 +29,34 @@ export class ProfilPage {
 		//this.navCtrl.push(LoginPage);
 
 	}
+
+     edit() {
+    let prompt = this.alertCtrl.create({
+      title: 'Edit',
+      inputs: [
+        {
+          name: 'title',
+          placeholder: 'Title'
+        },
+      ],
+
+
+      buttons: [
+        {
+          text: 'Cancel',
+          handler: data => {
+            console.log('Cancel clicked');
+          }
+        },
+        {
+          text: 'Save',
+          handler: data => {
+            console.log('Saved clicked');
+          }
+        }
+      ]
+    });
+    prompt.present();
+  }
 
 }

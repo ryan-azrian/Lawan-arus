@@ -17,6 +17,8 @@ import { LoginPage } from '../pages/login/login';
 import { SumbangPage } from '../pages/sumbang/sumbang';
 import { MainPage } from '../pages/main/main';
 import { DetailPage } from '../pages/detail/detail';
+import { PeminatPage } from '../pages/peminat/peminat';
+
 
 
 // Service imports
@@ -38,7 +40,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LoginPage,
     SumbangPage,
     MainPage,
-    DetailPage
+    DetailPage,
+    PeminatPage
   ],
   imports: [
     BrowserModule,
@@ -57,7 +60,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LoginPage,
     SumbangPage,
     MainPage,
-    DetailPage
+    DetailPage,
+    PeminatPage
   ],
   providers: [
     StatusBar, //save data

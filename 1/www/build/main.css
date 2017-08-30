@@ -24510,6 +24510,23 @@ page-detail .back-button {
   color: #fff !important;
 }
 
+page-detail .scroll-content {
+  background-color: #91AEC3;
+}
+
+page-detail1 .toolbar-background {
+  background: #1B607C;
+  border-color: transparent;
+}
+
+page-detail1 .back-button {
+  color: #fff !important;
+}
+
+page-detail1 .scroll-content {
+  background-color: #91AEC3;
+}
+
 page-home .toolbar-background {
   background: #fff;
   border-color: transparent;
@@ -24567,13 +24584,13 @@ page-home .social-cards ion-col {
   padding: 0;
 }
 
-page-home .button-small-ios {
+page-home .button-small {
   padding: 0 0.9em;
   height: 2.1em;
   font-size: 2rem;
 }
 
-page-home .card .note-ios {
+page-home .card .note {
   font-size: 2rem;
   align: right;
 }
@@ -24590,7 +24607,12 @@ page-home .back-button {
   color: #fff !important;
 }
 
-page-list .item-ios p {
+page-home .note {
+  color: red;
+  font-size: 2rem;
+}
+
+page-list .item p {
   overflow: inherit;
   margin: 0 0 2px;
   font-size: 1.4rem;
@@ -24689,7 +24711,7 @@ page-main .button-md-light {
   background-color: #1B607C;
 }
 
-page-main .item-ios {
+page-main .item {
   position: relative;
   padding-left: 16px;
   border-radius: 0;
@@ -24703,8 +24725,8 @@ page-main .list-ios > .item-block:first-child {
   border-top: 0.55px solid #91AEC3;
 }
 
-page-main .list-ios > .item-block:last-child,
-page-main .list-ios > .item-wrapper:last-child .item-block {
+page-main .list > .item-block:last-child,
+page-main .list > .item-wrapper:last-child .item-block {
   border-bottom: 0.55px solid #91AEC3;
 }
 

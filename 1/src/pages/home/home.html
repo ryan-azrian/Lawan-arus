@@ -1,4 +1,4 @@
-
+  
 <ion-header>
   <ion-navbar>
     <ion-title>      
@@ -30,7 +30,7 @@
     </ion-slide>
   </ion-slides>
 
-  <ion-card>
+  <ion-card (click)='detail()'>
 
   <ion-item>
     <ion-avatar item-left>
@@ -46,10 +46,6 @@
 
   <ion-row>
     <ion-col>
-      <button ion-button color="primary" clear small icon-start (click)='detail()'>
-        <ion-icon name='ios-information-circle'></ion-icon>
-        Details
-      </button>
     </ion-col>
       <ion-col align-self-center text-center>
       <ion-note>
@@ -61,9 +57,9 @@
 </ion-card>
 
 
- <ion-card>
+ <ion-card (click)='detail()'>
 
-  <ion-item>
+  <ion-item >
     <ion-avatar item-left>
       <img src="assets/img/logo-fix.png">
     </ion-avatar>
@@ -77,10 +73,6 @@
 
   <ion-row>
     <ion-col>
-      <button ion-button color="primary" clear small icon-start (click)='detail()'>
-        <ion-icon name='ios-information-circle'></ion-icon>
-          Details
-      </button>
     </ion-col>
     <ion-col align-self-center text-center>
       <ion-note>
@@ -91,7 +83,7 @@
 
 </ion-card>
 
- <ion-card>
+ <ion-card (click)='detail()'>
 
   <ion-item>
     <ion-avatar item-left>
@@ -107,10 +99,6 @@
 
   <ion-row>
     <ion-col>
-      <button ion-button color="primary" clear small icon-start (click)='detail()'>
-        <ion-icon name='ios-information-circle'></ion-icon>
-        Details
-      </button>
     </ion-col>
     <ion-col align-self-center text-center>
       <ion-note>
@@ -126,10 +114,8 @@
   <ion-fab right bottom>
     <button ion-fab color="dark"><ion-icon name="add"></ion-icon></button>
     <ion-fab-list side="top">
-      <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
-      <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
-      <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>
-      <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+      <button ion-fab><ion-icon name="ios-image"></ion-icon></button>
+      <button ion-fab><ion-icon name="ios-camera"></ion-icon></button>
     </ion-fab-list>
   </ion-fab>
 

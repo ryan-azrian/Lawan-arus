@@ -55,13 +55,13 @@ page-home {
     padding: 0;
   }
 
-  .button-small-ios {
+  .button-small {
   padding: 0 0.9em;
   height: 2.1em;
   font-size: 2rem;
 }
 
-  .card .note-ios {
+  .card .note {
   font-size: 2rem;
   align: right;
 }
@@ -77,5 +77,10 @@ page-home {
 .back-button {
   color: #fff !important;
 }
+
+.note{
+  color : red;
+  font-size: 2rem;
+  }
 
 }

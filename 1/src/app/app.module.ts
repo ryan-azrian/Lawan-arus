@@ -18,6 +18,8 @@ import { SumbangPage } from '../pages/sumbang/sumbang';
 import { MainPage } from '../pages/main/main';
 import { DetailPage } from '../pages/detail/detail';
 import { PeminatPage } from '../pages/peminat/peminat';
+import { Detail1Page } from '../pages/detail1/detail1';
+
 
 
 
@@ -41,7 +43,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SumbangPage,
     MainPage,
     DetailPage,
-    PeminatPage
+    PeminatPage,
+    Detail1Page
   ],
   imports: [
     BrowserModule,
@@ -61,7 +64,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SumbangPage,
     MainPage,
     DetailPage,
-    PeminatPage
+    PeminatPage,
+    Detail1Page
   ],
   providers: [
     StatusBar, //save data

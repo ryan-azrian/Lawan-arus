@@ -35,7 +35,7 @@ page-main {
 	  background-color: #1B607C;
 	}
 
-	.item-ios {
+	.item {
 		  position: relative;
 		  padding-left: 16px;
 		  border-radius: 0;
@@ -50,8 +50,8 @@ page-main {
   border-top: 0.55px solid #91AEC3;
 	}
 
-.list-ios > .item-block:last-child,
-.list-ios > .item-wrapper:last-child .item-block {
+.list > .item-block:last-child,
+.list > .item-wrapper:last-child .item-block {
   border-bottom: 0.55px solid #91AEC3;
 }
 

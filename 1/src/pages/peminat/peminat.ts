@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Detail1Page } from '../detail1/detail1';
+
 
 /**
  * Generated class for the PeminatPage page.
@@ -20,5 +22,12 @@ export class PeminatPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad PeminatPage');
   }
+
+  detail(){
+
+	//this.navCtrl.setRoot(Detail1Page);
+		this.navCtrl.push(Detail1Page);
+
+	}
 
 }

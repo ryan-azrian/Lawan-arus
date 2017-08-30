@@ -19,6 +19,9 @@ import { MainPage } from '../pages/main/main';
 import { DetailPage } from '../pages/detail/detail';
 import { PeminatPage } from '../pages/peminat/peminat';
 import { Detail1Page } from '../pages/detail1/detail1';
+import { YayasanKebutuhanPage } from '../pages/yayasan-kebutuhan/yayasan-kebutuhan';
+import { YayasanJenisPage } from '../pages/yayasan-jenis/yayasan-jenis';
+
 
 
 
@@ -44,7 +47,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MainPage,
     DetailPage,
     PeminatPage,
-    Detail1Page
+    Detail1Page,
+    YayasanKebutuhanPage,
+    YayasanJenisPage
   ],
   imports: [
     BrowserModule,
@@ -65,7 +70,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MainPage,
     DetailPage,
     PeminatPage,
-    Detail1Page
+    Detail1Page,
+    YayasanKebutuhanPage,
+    YayasanJenisPage
   ],
   providers: [
     StatusBar, //save data
